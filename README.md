@@ -1,7 +1,8 @@
-# perl-app-cpanminus - devel branch
+App::cpanminus - get, unpack, build and install modules from CPAN
 
-This repository contains the frozen state of the repository.
-Its history is cleared. It is used only for static code
-analysis with Codacy.
+This repository contains two distributions:
 
-Commit Time: 1734569601
+- App-cpanminus: fatpacked cpanm frontend
+- Menlo: backend modules and libraries
+
+The repository is shared because a monorepo makes it easier to keep the history and releases in sync, as well as to share GitHub issues and PRs.
